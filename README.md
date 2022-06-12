@@ -6,12 +6,14 @@
      
  ## install EsAuthentication
 >
-> - composer require laravel/passport
+> - composer require esperlos98/esauthentication
 
  ## publish config EsAuthentication
+ >
+ > php artisan vendor:publish --tag=config
     
 
- ## Config  esauthentication /config/esauthentication
+ ## Config  esauthentication /config/esauthentication or .env add
 >
 >  ### run install 
 >  - php artisan passport:install 
@@ -58,6 +60,7 @@
 
 
 ### AuthServiceProvider add boot method
+    use Laravel\Passport\Passport;
 
     Passport::routes();
 
@@ -65,11 +68,16 @@
     Passport::refreshTokensExpireIn(now()->addMonth(15));
 
 
-### add file user model 
+### add file user model /app/Models/User.php
+
+###  <p>note for laravel 9</p> 
+
+> remove use Laravel\Sanctum\HasApiTokens;
+
     use Laravel\Passport\HasApiTokens;
     use HasApiTokens;
 
-### change api drive auth config 
+### add api drive  config/auth.php 
 
     'api' => [
             'driver' => 'passport',
