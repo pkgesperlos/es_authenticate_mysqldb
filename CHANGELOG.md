@@ -2,8 +2,14 @@
 
 ## [Unreleased]
 
-## [v1.0.0]
+## [v1.0.0] https://github.com/pkgesperlos/es_authenticate_mysqldb
 
 ### features
 
-this a third parrty for passport and easy config  
+this a third parrty for passport and easy config 
+
+
+### features
+
+add CHANGELOG
+
