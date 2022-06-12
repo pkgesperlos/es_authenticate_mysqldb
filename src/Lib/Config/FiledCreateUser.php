@@ -1,6 +1,6 @@
 <?php
 
-namespace Esperlos\Esauthentication\Lib\Config;
+namespace Esperlos98\Esauthentication\Lib\Config;
 
 use Illuminate\Http\Request;
 

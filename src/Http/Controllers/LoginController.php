@@ -1,11 +1,11 @@
 <?php
 
-namespace Esperlos\Esauthentication\Http\Controllers;
+namespace Esperlos98\Esauthentication\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Esperlos\Esauthentication\Lib\CreateToken;
-use Esperlos\Esauthentication\Repository\Validate\ValidateRequest;
+use Esperlos98\Esauthentication\Lib\CreateToken;
+use Esperlos98\Esauthentication\Repository\Validate\ValidateRequest;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Auth;
 use Laravel\Passport\TokenRepository;

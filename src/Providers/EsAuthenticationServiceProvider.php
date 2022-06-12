@@ -1,6 +1,6 @@
 <?php
 
-namespace Esperlos\Esauthentication\Providers;
+namespace Esperlos98\Esauthentication\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

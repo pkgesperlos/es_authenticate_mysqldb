@@ -2,7 +2,7 @@
 
 ## [Unreleased]
 
-## [v1.0.0] https://github.com/pkgesperlos/es_authenticate_mysqldb
+## [v1.0.0] https://github.com/pkgEsperlos98/es_authenticate_mysqldb
 
 ### features
 

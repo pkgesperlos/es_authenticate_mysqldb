@@ -1,9 +1,9 @@
 <?php
 
-namespace Esperlos\Esauthentication\tests\Unit;
+namespace Esperlos98\Esauthentication\tests\Unit;
 
 use Tests\TestCase;
-use Esperlos\Esauthentication\Lib\CreateToken;
+use Esperlos98\Esauthentication\Lib\CreateToken;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Request as FacadesRequest;

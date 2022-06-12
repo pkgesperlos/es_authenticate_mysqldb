@@ -1,13 +1,13 @@
 <?php
 
-namespace Esperlos\Esauthentication\Http\Controllers;
+namespace Esperlos98\Esauthentication\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use App\Models\User;
 use Illuminate\Http\Request;
-use Esperlos\Esauthentication\Lib\CreateToken;
-use Esperlos\Esauthentication\Repository\Validate\ValidateRequest;
-use Esperlos\Esauthentication\Lib\Config\FiledCreateUser;
+use Esperlos98\Esauthentication\Lib\CreateToken;
+use Esperlos98\Esauthentication\Repository\Validate\ValidateRequest;
+use Esperlos98\Esauthentication\Lib\Config\FiledCreateUser;
 
 class RegisterController extends Controller
 {

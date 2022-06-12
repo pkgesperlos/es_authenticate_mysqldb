@@ -1,12 +1,14 @@
 {
     "name": "esperlos98/esauthentication",
     "description": "this packagef for authentication",
-    "type": "metapackage",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Esperlos\\Esauthentication\\": "src/"
+            "Esperlos98\\Esauthentication\\": "src/"
         }
+    },
+    "require": {
+        "php": ">=8.0.0"
     },
     "authors": [
         {
@@ -14,5 +16,14 @@
             "email": "mohsengreen1388@gmail.com"
         }
     ],
-    "minimum-stability": "dev"
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Esperlos98\\Esauthentication\\Providers\\EsAuthenticationServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+  
 }

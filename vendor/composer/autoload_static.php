@@ -9,12 +9,12 @@ class ComposerStaticInit27a07448e81ce71558d0f5cb475eb46b
     public static $prefixLengthsPsr4 = array (
         'E' => 
         array (
-            'Esperlos\\Esauthentication\\' => 26,
+            'Esperlos98\\Esauthentication\\' => 26,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Esperlos\\Esauthentication\\' => 
+        'Esperlos98\\Esauthentication\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

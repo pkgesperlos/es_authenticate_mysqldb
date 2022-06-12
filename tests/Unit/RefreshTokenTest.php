@@ -1,6 +1,6 @@
 <?php
 
-namespace Esperlos\Esauthentication\tests\Unit;
+namespace Esperlos98\Esauthentication\tests\Unit;
 
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\WithFaker;

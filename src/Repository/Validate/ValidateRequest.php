@@ -1,6 +1,6 @@
 <?php
 
-namespace Esperlos\Esauthentication\Repository\Validate;
+namespace Esperlos98\Esauthentication\Repository\Validate;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;

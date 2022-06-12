@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Esperlos\\Esauthentication\\' => array($baseDir . '/src'),
+    'Esperlos98\\Esauthentication\\' => array($baseDir . '/src'),
 );

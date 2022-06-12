@@ -1,10 +1,10 @@
 <?php
 
-namespace Esperlos\Esauthentication\Http\Controllers;
+namespace Esperlos98\Esauthentication\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Esperlos\Esauthentication\Lib\CreateRefreshToken;
+use Esperlos98\Esauthentication\Lib\CreateRefreshToken;
 
 class RefreshTokenController extends Controller
 {
