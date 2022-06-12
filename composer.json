@@ -1,0 +1,18 @@
+{
+    "name": "esperlos/esauthentication",
+    "description": "this packagef for authentication",
+    "type": "metapackage",
+    "license": "BSD",
+    "autoload": {
+        "psr-4": {
+            "Esperlos\\Esauthentication\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mohsengreen1388",
+            "email": "mohsengreen1388@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
