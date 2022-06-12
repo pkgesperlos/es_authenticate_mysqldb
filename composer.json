@@ -2,7 +2,7 @@
     "name": "esperlos98/esauthentication",
     "description": "this packagef for authentication",
     "type": "metapackage",
-    "license": "BSD",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Esperlos\\Esauthentication\\": "src/"
