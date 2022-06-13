@@ -91,3 +91,6 @@
 > ### for register  
 > <p>youerdomine/es/api/v1/register</p>
 
+> ### for refresh token  
+> <p>youerdomine/es/api/v1/refreshToken</p>
+

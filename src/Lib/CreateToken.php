@@ -6,9 +6,8 @@ use Illuminate\Http\Request;
 
 class CreateToken
 {
-    public static function token(Request $request)
-    {
-        $response = Http::asForm()->post(env('APP_URL').'/oauth/token', [
+    public static function token(Request $request){
+        $request = Request::create('oauth/token', 'POST',[
             'grant_type' => config("esauthentication.client.GRANT_TYPE"),
             'client_id' =>  config("esauthentication.client.CLIENT_ID"),
             'client_secret' => config("esauthentication.client.SECRET_CLIENT_ID"),
@@ -16,6 +15,9 @@ class CreateToken
             'username' => $request->get(config("esauthentication.client.USER_NAME")),
             'password' => $request->get("password"),
         ]);
+
+        $response = app()->handle($request);
+        $response = json_decode($response->getContent(), true);
 
         return $response;
     }

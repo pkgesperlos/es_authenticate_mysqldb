@@ -13,3 +13,7 @@ this a third parrty for passport and easy config
 
 add CHANGELOG
 
+
+### fixed
+
+curl error 28 in passwort token
