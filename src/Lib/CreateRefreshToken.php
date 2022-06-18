@@ -11,7 +11,7 @@ class CreateRefreshToken
             'grant_type' => config("esauthentication.client.GRANT_REFRESH_TOKEN"),
             'refresh_token' => $request->get("refresh_token"),
             'client_id' =>  config("esauthentication.client.CLIENT_ID"),
-            'client_secret' => config("esauthentication.client.SECRET_CLIENT_ID"),
+            'client_secret' => config("esauthentication.client.CLIENT_SECRET"),
             'scope' => config("esauthentication.client.SCOPE"),
         ]);
 

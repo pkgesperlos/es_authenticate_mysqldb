@@ -7,7 +7,7 @@ return [
         "GRANT_TYPE" => env("GRANT_TYPE","password"),
         "GRANT_REFRESH_TOKEN" => env("GRANT_REFRESH_TOKEN","refresh_token"),
         "CLIENT_ID" => env("CLIENT_ID"),
-        "SECRET_CLIENT_ID" => env("SECRET_CLIENT_ID"),
+        "CLIENT_SECRET" => env("CLIENT_SECRET"),
         "SCOPE" => env("SCOPE",""),
         "USER_NAME"=> env("USER_NAME","email"),
     ],

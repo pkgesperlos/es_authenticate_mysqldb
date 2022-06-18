@@ -6,7 +6,7 @@ use Esperlos98\Esauthentication\Http\Controllers\LoginController;
 use Esperlos98\Esauthentication\Http\Controllers\RegisterController;
 use Esperlos98\Esauthentication\Http\Controllers\RefreshTokenController;
 
-Route::middleware(['api'])->prefix("es/api/v1/")->group(function () {
+Route::middleware(['api'])->prefix("api/es/v1/")->group(function () {
 
     Route::post("/login",[LoginController::class,'loginUser']);
     Route::post("/register",[RegisterController::class,'registerUser']);

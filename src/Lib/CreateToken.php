@@ -10,7 +10,7 @@ class CreateToken
         $request = Request::create('oauth/token', 'POST',[
             'grant_type' => config("esauthentication.client.GRANT_TYPE"),
             'client_id' =>  config("esauthentication.client.CLIENT_ID"),
-            'client_secret' => config("esauthentication.client.SECRET_CLIENT_ID"),
+            'client_secret' => config("esauthentication.client.CLIENT_SECRET"),
             'scope' => config("esauthentication.client.SCOPE"),
             'username' => $request->get(config("esauthentication.client.USER_NAME")),
             'password' => $request->get("password"),
